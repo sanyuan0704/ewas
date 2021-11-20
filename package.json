@@ -8,15 +8,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LinbuduLab/pnpm-workspace-example.git"
+    "url": "https://github.com/sanyuan0704/create-esbuild-app.git"
   },
+  "gitHooks": {
+    "pre-commit": "lint-staged --concurrent false",
+    "commit-msg": "node scripts/verifyCommit.js"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown"
+    ]
+  },
+  "packageManager": "pnpm",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LinbuduLab/pnpm-workspace-example/issues"
+    "url": "https://github.com/sanyuan0704/create-esbuild-app.git/issues"
   },
-  "homepage": "https://github.com/LinbuduLab/pnpm-workspace-example#readme",
+  "homepage": "https://github.com/sanyuan0704/create-esbuild-app.git#readme",
   "devDependencies": {
     "@changesets/cli": "^2.17.0",
     "@types/fs-extra": "^9.0.13",
@@ -26,8 +36,10 @@
     "@types/prompts": "^2.0.14",
     "chalk": "^4.1.2",
     "consola": "^2.15.3",
+    "eslint": "^8.2.0",
     "fs-extra": "^10.0.0",
     "jsonfile": "^6.1.0",
+    "lint-staged": "^12.0.3",
     "minimist": "^1.2.5",
     "prettier": "^2.4.1",
     "prompts": "^2.4.2",

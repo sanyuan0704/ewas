@@ -1,0 +1,26 @@
+{
+  "name": "create-esbuild-app",
+  "version": "0.0.1",
+  "description": "template project scaffolding generator",
+  "main": "./dist/index.js",
+  "bin": {
+    "create-esbuild-app": "./dist/index.js",
+    "cea": "./dist/index.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch",
+    "create": "node ./dist/index.js",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "add": "^2.0.6",
+    "kolorist": "^1.5.0",
+    "typescript": "^4.5.0-beta"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "prompts": "^2.4.2"
+  }
+}

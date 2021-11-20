@@ -1,11 +1,8 @@
 import fs from "fs-extra";
 import path from "path";
 import consola from "consola";
-import chalk from "chalk";
 import minimist from "minimist";
-import prompts from "prompts";
-import jsonfile from "jsonfile";
-import prettier from "prettier";
+
 
 const PACKAGE_DIR = "packages";
 
