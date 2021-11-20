@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import prompts from 'prompts';
 import minimist from 'minimist';
 import { green, blue, cyan, gray } from 'kolorist';
