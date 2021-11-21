@@ -20,15 +20,15 @@ const FRAMEWORKS = [
   {
     name: 'react',
     color: blue
-  },
-  {
-    name: 'vue',
-    color: green
-  },
-  {
-    name: 'vanilla',
-    color: cyan
   }
+  // {
+  //   name: 'vue',
+  //   color: green
+  // },
+  // {
+  //   name: 'vanilla',
+  //   color: cyan
+  // }
 ];
 
 const LANGUAGES = [

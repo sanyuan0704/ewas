@@ -1,0 +1,25 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ESNext",
+    "rootDir": "src",
+    "module": "CommonJS",
+    "sourceMap": true
+  },
+  "include": ["src"],
+  "references": [
+    {
+      "path": "../types"
+    },
+    {
+      "path": "../esbuild-plugin-html"
+    },
+    {
+      "path": "../esbuild-plugin-build-info"
+    },
+    {
+      "path": "../create-app"
+    }
+  ]
+}

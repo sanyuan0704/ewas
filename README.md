@@ -1,31 +1,9 @@
-# pnpm-workspace-template
+# Esbuild Web Starter
 
-Common commands:
+A complete web development launcher based on Esbuild. Create web apps with no extra configuration.
 
-```bash
-pnpm i typescript@beta --filter '*' -D
-pnpm add child1 --filter 'parent1' --workspace
-pnpm run build --recursive --if-present --parallel --enable-pre-post-scripts --filter ''
-pnpm exec jest --recursive --parallel --filter ''
+## Quick Overview
 
-pnpm dlx create-react-app ./my-app
-pnpm create react-app my-app
-
-pnpm env use --global lts
-pnpm env use --global 16
-
-pnpm publish -r
-pnpm publish --tag --access=public --git-checks --report-summary --filter
-```
-
-Release workflow:
-
-```bash
-pnpm add @changesets/cli -DW
-pnpm changeset init
-pnpm changeset
-pnpm changeset version
-pnpm install
-git add . && git commit -m 'feat: bump!'
-pnpm publish -r
+```js
+npx create-esbuild-app my-app
 ```

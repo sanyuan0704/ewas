@@ -1,10 +1,13 @@
 {
-  "name": "pnpm-workspace-template",
+  "name": "esbuild-web-starter",
   "version": "1.0.0",
-  "description": "Sample pnpm workspace example",
+  "description": "Awesome web development tool based on esbuild.It is fast!",
   "main": "index.js",
   "scripts": {
-    "create-pkg": "ts-node scripts/create-package.ts"
+    "create-pkg": "ts-node -p tsconfig.dev.json scripts/create-package.ts",
+    "start": "ttsc -b -w",
+    "clean": "cd .. && pnpm recursive exec -- rm -rf dist tsconfig.tsbuildinfo tsconfig.build.tsbuildinfo",
+    "clean-start": "pnpm clean && pnpm start"
   },
   "repository": {
     "type": "git",
@@ -46,6 +49,8 @@
     "semver": "^7.3.5",
     "ts-node": "^10.4.0",
     "ts-node-dev": "^1.1.8",
-    "typescript": "^4.5.0-beta"
+    "ttypescript": "^1.5.12",
+    "typescript": "^4.5.0-beta",
+    "typescript-transform-paths": "^3.3.1"
   }
 }

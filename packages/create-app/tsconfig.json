@@ -3,6 +3,7 @@
   "compilerOptions": {
     "outDir": "dist",
     "module": "CommonJS",
+    "rootDir": "src",
     "allowUnusedLabels": false,
     "allowUnreachableCode": false,
     "alwaysStrict": true,
