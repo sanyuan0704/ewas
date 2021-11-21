@@ -1,0 +1,19 @@
+{
+  "name": "@ews/types",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.15",
+    "typescript": "^4.5.0-beta"
+  },
+  "files": [
+    "dist"
+  ]
+}

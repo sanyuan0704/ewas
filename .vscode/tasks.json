@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "start",
+      "problemMatcher": [],
+      "label": "启动 ews 项目",
+      "detail": "ttsc -b -w"
+    },
+    {
+      "type": "npm",
+      "script": "clean-start",
+      "problemMatcher": [],
+      "label": "启动 ews 项目(清缓存)",
+      "detail": "ttsc -b -w"
+    }
+  ]
+}
