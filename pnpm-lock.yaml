@@ -63,21 +63,6 @@ importers:
       kolorist: 1.5.0
       typescript: 4.5.0-beta
 
-  packages/create-app/my-app:
-    specifiers:
-      '@ews/cli': 0.0.1
-      '@types/react': ^17.0.0
-      '@types/react-dom': ^17.0.0
-      react: ^17.0.0
-      react-dom: ^17.0.0
-    dependencies:
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-    devDependencies:
-      '@ews/cli': link:../../starter
-      '@types/react': 17.0.35
-      '@types/react-dom': 17.0.11
-
   packages/create-app/template/react-js:
     specifiers:
       '@ews/cli': 0.0.1
@@ -135,6 +120,7 @@ importers:
 
   packages/starter:
     specifiers:
+      '@ews/create-esbuild-app': workspace:*
       '@ews/esbuild-plugin-build-info': workspace:*
       '@ews/esbuild-plugin-html': workspace:*
       '@ews/types': workspace:*
@@ -142,7 +128,6 @@ importers:
       '@types/ws': ^8.2.0
       cac: ^6.7.12
       chokidar: ^3.5.2
-      create-esbuild-app: workspace:*
       deepmerge: ^4.2.2
       esbuild: ^0.13.15
       express: ^4.17.1
@@ -152,11 +137,11 @@ importers:
       typescript: ^4.5.0-beta
       ws: ^8.2.3
     dependencies:
+      '@ews/create-esbuild-app': link:../create-app
       '@ews/esbuild-plugin-build-info': link:../esbuild-plugin-build-info
       '@ews/esbuild-plugin-html': link:../esbuild-plugin-html
       cac: 6.7.12
       chokidar: 3.5.2
-      create-esbuild-app: link:../create-app
       deepmerge: 4.2.2
       esbuild: 0.13.15
       express: 4.17.1
@@ -1702,7 +1687,7 @@ packages:
     dev: true
 
   /fsevents/2.3.2:
-    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=}
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true

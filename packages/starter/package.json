@@ -16,7 +16,7 @@
   "dependencies": {
     "cac": "^6.7.12",
     "chokidar": "^3.5.2",
-    "create-esbuild-app": "workspace:*",
+    "@ews/create-esbuild-app": "workspace:*",
     "deepmerge": "^4.2.2",
     "esbuild": "^0.13.15",
     "express": "^4.17.1",
