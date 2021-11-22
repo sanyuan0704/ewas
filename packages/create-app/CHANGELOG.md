@@ -1,5 +1,11 @@
 # create-esbuild-app
 
+## 0.0.6
+
+### Patch Changes
+
+- support pnpm
+
 ## 0.0.5
 
 ### Patch Changes
