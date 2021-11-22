@@ -142,4 +142,4 @@ async function init() {
   console.log(` 🚀 3. ${commandMap[packgeManager]['start']}\n`);
 }
 
-init().catch(console.log);
+init();

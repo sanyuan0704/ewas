@@ -1,5 +1,11 @@
 # create-esbuild-app
 
+## 0.0.9
+
+### Patch Changes
+
+- optimzie log
+
 ## 0.0.8
 
 ### Patch Changes

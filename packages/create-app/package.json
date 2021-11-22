@@ -1,13 +1,11 @@
 {
   "name": "create-esbuild-web-app",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "template project scaffolding generator",
   "main": "./dist/index.js",
   "bin": {
-    "@ewas/esbuild-app": "./dist/index.js",
-    "@ewas/create-esbuild-app": "./dist/index.js",
-    "create-esbuild-app": "./dist/index.js",
-    "cea": "./dist/index.js"
+    "create-esbuild-web-app": "./dist/index.js",
+    "cewa": "./dist/index.js"
   },
   "license": "MIT",
   "scripts": {
