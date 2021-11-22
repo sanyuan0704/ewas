@@ -125,7 +125,6 @@ function getManager() {
 async function init() {
   let projectInfo = (await prompts(promptsChain)) as ProjectInfo;
   const { name, framework, language } = projectInfo;
-  console.log(name, framework, language);
 
   const rootPath = path.join(cwd, name);
   const templatePath = path.join(
