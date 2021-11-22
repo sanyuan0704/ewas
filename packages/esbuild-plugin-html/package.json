@@ -1,5 +1,5 @@
 {
-  "name": "@ews/esbuild-plugin-html",
+  "name": "@ewas/esbuild-plugin-html",
   "version": "0.0.1",
   "description": "",
   "main": "./dist/index.js",
@@ -10,7 +10,7 @@
     "check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@ews/types": "workspace:*",
+    "@ewas/types": "workspace:*",
     "esbuild": "^0.13.15",
     "typescript": "^4.5.0-beta"
   },

@@ -1,11 +1,11 @@
 import { build, serve } from 'esbuild';
 import { ESBUILD_SERVE_PORT } from './dev-server';
-import { UserConfig } from '@ews/types';
-import { esbuildHtmlPlugin } from '@ews/esbuild-plugin-html';
+import { UserConfig } from '@ewas/types';
+import { esbuildHtmlPlugin } from '@ewas/esbuild-plugin-html';
 import {
   esbuildInfoPlugin,
   showRebuildInfo
-} from '@ews/esbuild-plugin-build-info';
+} from '@ewas/esbuild-plugin-build-info';
 
 export async function runBuildFirstTime(config: UserConfig): Promise<void> {
   await build({

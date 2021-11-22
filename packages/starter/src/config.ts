@@ -3,7 +3,7 @@ import fs from 'fs';
 import { build, BuildOptions, Loader } from 'esbuild';
 import { isBuild } from './utils';
 import deepmerge from 'deepmerge';
-import { UserConfig } from '@ews/types';
+import { UserConfig } from '@ewas/types';
 
 const RESOURCE_LOADER = ['.png', '.jpeg', '.jpg', '.svg', '.woff'];
 

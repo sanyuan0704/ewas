@@ -2,7 +2,7 @@
   "name": "esbuild-app-starter",
   "version": "0.0.0",
   "scripts": {
-    "start": "ews"
+    "start": "ewas"
   },
   "dependencies": {
     "react": "^17.0.0",
@@ -11,6 +11,6 @@
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "@ews/cli": "0.0.1"
+    "@ewas/cli": "0.0.1"
   }
 }

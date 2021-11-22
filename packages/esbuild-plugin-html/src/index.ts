@@ -3,7 +3,7 @@ import path from 'path';
 import { readFileSync } from 'fs';
 import { writeFile, mkdir } from 'fs/promises';
 import { HTMLBuilder } from './HTMLBuilder';
-import { UserConfig } from '@ews/types';
+import { UserConfig } from '@ewas/types';
 
 type ScriptType = 'blocking' | 'defer' | 'module';
 

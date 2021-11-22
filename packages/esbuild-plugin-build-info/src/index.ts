@@ -2,7 +2,7 @@ import { Plugin, ServeOnRequestArgs } from 'esbuild';
 import readline from 'readline';
 import { bold, green, cyan, dim, blue } from 'picocolors';
 import os, { NetworkInterfaceInfo } from 'os';
-import { UserConfig } from '@ews/types';
+import { UserConfig } from '@ewas/types';
 import { performance } from 'perf_hooks';
 
 let firstBuild = true;
@@ -72,7 +72,7 @@ export function esbuildInfoPlugin(config: UserConfig): Plugin {
         if (firstBuild) {
           firstBuild = false;
           clearScreen();
-          console.log(cyan('\n EWS') + green(' dev server running at:\n'));
+          console.log(cyan('\n ewas') + green(' dev server running at:\n'));
           printUrls(config?.port ?? 9000);
           // eslint-disable-next-line @typescript-eslint/no-var-requires
           console.log(

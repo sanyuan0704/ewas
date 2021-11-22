@@ -1,7 +1,7 @@
 import { cac } from 'cac';
 import { createServer } from './dev-server';
 
-const cli = cac('ews');
+const cli = cac('ewas');
 
 cli
   .command('[root]')

@@ -1,6 +1,6 @@
 {
-  "name": "@ews/types",
-  "version": "0.0.1",
+  "name": "@ewas/types",
+  "version": "1.0.0",
   "description": "",
   "license": "MIT",
   "main": "dist/index.js",

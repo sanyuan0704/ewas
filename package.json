@@ -1,6 +1,6 @@
 {
   "name": "esbuild-web-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Awesome web development tool based on esbuild.It is fast!",
   "main": "index.js",
   "scripts": {

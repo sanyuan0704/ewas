@@ -2,7 +2,7 @@ import express from 'express';
 import path from 'path';
 import fs from 'fs';
 import { injectScript } from '..';
-import { UserConfig } from '@ews/types';
+import { UserConfig } from '@ewas/types';
 
 export function historyFallbackMiddware(
   config: UserConfig
