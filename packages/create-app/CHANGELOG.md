@@ -1,5 +1,11 @@
 # create-esbuild-app
 
+## 0.0.11
+
+### Patch Changes
+
+- change template @ewas/cli version]
+
 ## 0.0.10
 
 ### Patch Changes
