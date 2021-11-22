@@ -90,6 +90,7 @@ importers:
 
   packages/starter:
     specifiers:
+      '@ewas/create-esbuild-app': workspace:*
       '@ewas/esbuild-plugin-build-info': workspace:*
       '@ewas/esbuild-plugin-html': workspace:*
       '@ewas/types': workspace:*
@@ -97,7 +98,6 @@ importers:
       '@types/ws': ^8.2.0
       cac: ^6.7.12
       chokidar: ^3.5.2
-      create-esbuild-web-app: workspace:*
       deepmerge: ^4.2.2
       esbuild: ^0.13.15
       express: ^4.17.1
@@ -107,11 +107,11 @@ importers:
       typescript: ^4.5.0-beta
       ws: ^8.2.3
     dependencies:
+      '@ewas/create-esbuild-app': link:../create-app
       '@ewas/esbuild-plugin-build-info': link:../esbuild-plugin-build-info
       '@ewas/esbuild-plugin-html': link:../esbuild-plugin-html
       cac: 6.7.12
       chokidar: 3.5.2
-      create-esbuild-web-app: link:../create-app
       deepmerge: 4.2.2
       esbuild: 0.13.15
       express: 4.17.1
