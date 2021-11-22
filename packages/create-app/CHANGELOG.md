@@ -1,5 +1,11 @@
 # create-esbuild-app
 
+## 0.0.10
+
+### Patch Changes
+
+- change bin name
+
 ## 0.0.9
 
 ### Patch Changes

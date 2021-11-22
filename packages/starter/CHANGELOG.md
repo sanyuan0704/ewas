@@ -1,5 +1,12 @@
 # create-esbuild-app
 
+## 0.0.9
+
+### Patch Changes
+
+- Updated dependencies
+  - @ewas/create-esbuild-app@0.0.10
+
 ## 0.0.8
 
 ### Patch Changes

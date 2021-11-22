@@ -9,5 +9,10 @@ A complete web development launcher based on Esbuild. Create web apps with no ex
 ## Quick Overview
 
 ```js
-npx @ewas/create-esbuild-app
+// npm
+npm init @ewas/esbuild-app
+// yarn
+yarn create @ewas/esbuild-app
+// pnpm 
+pnpm create @ewas/esbuild-app
 ```
