@@ -2,7 +2,7 @@
 
 import prompts from 'prompts';
 import minimist from 'minimist';
-import { green, blue, cyan, gray } from 'kolorist';
+import { blue, cyan, gray } from 'kolorist';
 import path from 'path';
 import fs from 'fs';
 
@@ -142,4 +142,4 @@ async function init() {
   console.log(` 🚀 3. ${commandMap[packgeManager]['start']}\n`);
 }
 
-init().catch((e) => console.log);
+init().catch(console.log);
