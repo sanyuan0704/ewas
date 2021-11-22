@@ -1,5 +1,13 @@
 # create-esbuild-app
 
+## 0.0.4
+
+### Patch Changes
+
+- include template in init cli
+- Updated dependencies
+  - @ewas/create-esbuild-app@0.0.5
+
 ## 0.0.3
 
 ### Patch Changes
