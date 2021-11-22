@@ -1,5 +1,5 @@
 {
-  "name": "create-esbuild-web-app",
+  "name": "@ewas/create-esbuild-app",
   "version": "0.0.9",
   "description": "template project scaffolding generator",
   "main": "./dist/index.js",

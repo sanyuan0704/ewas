@@ -11,7 +11,7 @@ cli
   });
 
 cli.command('init').action(() => {
-  require('create-esbuild-web-app');
+  require('@ewas/create-esbuild-app');
 });
 
 cli.help();
