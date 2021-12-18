@@ -11,7 +11,8 @@ on:
     types: [closed]
 
 jobs: 
-  build: 
+  release: 
+    if: github.event.pull_request.merged == true
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -46,6 +47,7 @@ jobs:
         with:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
           publish: pnpm publish -r --no-git-checks
+          version: pnpm run version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

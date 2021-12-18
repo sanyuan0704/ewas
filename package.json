@@ -8,7 +8,8 @@
     "start": "ttsc -b -w",
     "build:all": "pnpm run build -r",
     "clean": "pnpm recursive exec -- rm -rf dist tsconfig.tsbuildinfo tsconfig.build.tsbuildinfo",
-    "clean-start": "pnpm clean && pnpm start"
+    "clean-start": "pnpm clean && pnpm start",
+    "version": "changeset version"
   },
   "repository": {
     "type": "git",
