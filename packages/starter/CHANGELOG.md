@@ -1,5 +1,13 @@
 # create-esbuild-app
 
+## 0.0.14
+
+### Patch Changes
+
+- f722694: update cli bin
+- Updated dependencies [f722694]
+  - @ewas/create-esbuild-app@0.0.14
+
 ## 0.0.13
 
 ### Patch Changes
