@@ -1,4 +1,7 @@
 {
+  "compilerOptions": {
+    "esModuleInterop": true
+  },
   "references": [
     { "path": "./packages/starter" },
     { "path": "./packages/create-app" },
