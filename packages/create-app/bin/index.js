@@ -1,4 +1,6 @@
 #!/usr/bin/env node
 
-require('../dist/index.js');
+const path = require('path');
+const bootstrapPath = path.resolve(__dirname, '..', 'dist/index.js');
+require(bootstrapPath);
 
