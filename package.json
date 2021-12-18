@@ -10,6 +10,7 @@
     "clean": "pnpm recursive exec -- rm -rf dist tsconfig.tsbuildinfo tsconfig.build.tsbuildinfo",
     "clean-start": "pnpm clean && pnpm start",
     "version": "changeset version",
+    "publish": "changeset publish",
     "rebase-remote-main": "git fetch origin main && git rebase origin/main"
   },
   "repository": {
