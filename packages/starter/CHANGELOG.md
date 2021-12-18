@@ -1,5 +1,13 @@
 # create-esbuild-app
 
+## 0.0.13
+
+### Patch Changes
+
+- c1b3eef: fix init problem
+- Updated dependencies [c1b3eef]
+  - @ewas/create-esbuild-app@0.0.13
+
 ## 0.0.12
 
 ### Patch Changes
