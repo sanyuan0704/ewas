@@ -1,0 +1,14 @@
+{
+  "mode": "exit",
+  "tag": "beta",
+  "initialVersions": {
+    "@ewas/create-esbuild-app": "0.0.11",
+    "@ewas/esbuild-plugin-build-info": "0.0.1",
+    "@ewas/esbuild-plugin-html": "0.0.3",
+    "@ewas/cli": "0.0.10",
+    "@ewas/types": "1.0.0"
+  },
+  "changesets": [
+    "olive-houses-design"
+  ]
+}

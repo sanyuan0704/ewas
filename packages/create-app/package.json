@@ -4,14 +4,14 @@
   "description": "template project scaffolding generator",
   "main": "./dist/index.js",
   "bin": {
-    "create-esbuild-app": "./dist/index.js",
-    "cewa": "./dist/index.js"
+    "create-esbuild-app": "index.js",
+    "cewa": "index.js"
   },
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "start": "tsc --watch",
-    "create": "node ./dist/index.js",
+    "create": "node index.js",
     "check": "tsc --noEmit"
   },
   "devDependencies": {
