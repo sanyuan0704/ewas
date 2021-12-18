@@ -1,6 +1,6 @@
 {
   "name": "@ewas/create-esbuild-app",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "template project scaffolding generator",
   "main": "./bin/index.js",
   "bin": {
