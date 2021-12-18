@@ -1,6 +1,6 @@
 {
   "name": "@ewas/cli",
-  "version": "0.0.10",
+  "version": "0.0.11-beta.0",
   "description": "",
   "main": "./dist/index.js",
   "license": "MIT",

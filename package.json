@@ -6,7 +6,8 @@
   "scripts": {
     "create-pkg": "ts-node -p tsconfig.dev.json scripts/create-package.ts",
     "start": "ttsc -b -w",
-    "clean": "cd .. && pnpm recursive exec -- rm -rf dist tsconfig.tsbuildinfo tsconfig.build.tsbuildinfo",
+    "build": "pnpm run build -r",
+    "clean": "pnpm recursive exec -- rm -rf dist tsconfig.tsbuildinfo tsconfig.build.tsbuildinfo",
     "clean-start": "pnpm clean && pnpm start"
   },
   "repository": {
