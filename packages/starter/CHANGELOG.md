@@ -1,5 +1,13 @@
 # create-esbuild-app
 
+## 0.0.15
+
+### Patch Changes
+
+- dd65d3e: add bootstrap path
+- Updated dependencies [dd65d3e]
+  - @ewas/create-esbuild-app@0.0.15
+
 ## 0.0.14
 
 ### Patch Changes
