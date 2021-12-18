@@ -1,5 +1,11 @@
 # create-esbuild-app
 
+## 0.0.17
+
+### Patch Changes
+
+- 09540e2: update dep in template
+
 ## 0.0.16
 
 ### Patch Changes

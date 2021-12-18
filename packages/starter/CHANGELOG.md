@@ -1,5 +1,13 @@
 # create-esbuild-app
 
+## 0.0.17
+
+### Patch Changes
+
+- bcd9f48: update cli
+- Updated dependencies [09540e2]
+  - @ewas/create-esbuild-app@0.0.17
+
 ## 0.0.16
 
 ### Patch Changes
