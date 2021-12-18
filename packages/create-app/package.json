@@ -2,16 +2,16 @@
   "name": "@ewas/create-esbuild-app",
   "version": "0.0.13",
   "description": "template project scaffolding generator",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "bin": {
-    "create-esbuild-app": "index.js",
-    "cewa": "index.js"
+    "create-esbuild-app": "./bin/index.js",
+    "cewa": "./bin/index.js"
   },
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "start": "tsc --watch",
-    "create": "node index.js",
+    "create": "node ./bin/index.js",
     "check": "tsc --noEmit"
   },
   "devDependencies": {
@@ -24,6 +24,7 @@
     "kolorist": "^1.5.0"
   },
   "files": [
+    "bin",
     "dist",
     "template"
   ]
