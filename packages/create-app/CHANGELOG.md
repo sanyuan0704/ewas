@@ -1,5 +1,11 @@
 # create-esbuild-app
 
+## 0.0.14
+
+### Patch Changes
+
+- f722694: update cli bin
+
 ## 0.0.13
 
 ### Patch Changes
