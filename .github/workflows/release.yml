@@ -7,20 +7,19 @@ env:
 
 on:
   pull_request:
+    branches: [main]
     types: [closed]
-    branches:
-      - main
 
 jobs: 
-  environment: npm
-  runs-on: ${{ matrix.os }}
-  strategy:
-    matrix:
-      os: [ubuntu-latest]
-      node_version: [14]
   build: 
-    - name: "Release: packages"
-    - steps:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node_version: [14]
+      fail-fast: false
+    name: "Build: node-${{ matrix.node_version }}, ${{ matrix.os }}"
+    steps:
       - name: Checkout
         uses: actions/checkout@v2
 
