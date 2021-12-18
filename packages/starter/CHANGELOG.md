@@ -1,5 +1,20 @@
 # create-esbuild-app
 
+## 0.0.12
+
+### Patch Changes
+
+- 1f2e60f: delete unless space
+
+## 0.0.11
+
+### Patch Changes
+
+- d3097e1: resolve install problem
+- d3097e1: add ci
+- Updated dependencies [d3097e1]
+  - @ewas/create-esbuild-app@0.0.12
+
 ## 0.0.10
 
 ### Patch Changes

@@ -1,13 +1,16 @@
 {
-  "name": "esbuild-web-starter",
+  "name": "esbuild-web-app-scaffold",
   "version": "1.0.1",
   "description": "Awesome web development tool based on esbuild.It is fast!",
   "main": "index.js",
   "scripts": {
     "create-pkg": "ts-node -p tsconfig.dev.json scripts/create-package.ts",
     "start": "ttsc -b -w",
-    "clean": "cd .. && pnpm recursive exec -- rm -rf dist tsconfig.tsbuildinfo tsconfig.build.tsbuildinfo",
-    "clean-start": "pnpm clean && pnpm start"
+    "build:all": "pnpm run build -r",
+    "clean": "pnpm recursive exec -- rm -rf dist tsconfig.tsbuildinfo tsconfig.build.tsbuildinfo",
+    "clean-start": "pnpm clean && pnpm start",
+    "version": "changeset version",
+    "rebase-remote-main": "git fetch origin main && git rebase origin/main"
   },
   "repository": {
     "type": "git",
