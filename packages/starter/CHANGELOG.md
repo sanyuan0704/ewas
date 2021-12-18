@@ -1,5 +1,11 @@
 # create-esbuild-app
 
+## 0.0.12
+
+### Patch Changes
+
+- 1f2e60f: delete unless space
+
 ## 0.0.11
 
 ### Patch Changes
