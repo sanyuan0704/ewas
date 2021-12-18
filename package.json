@@ -1,5 +1,5 @@
 {
-  "name": "esbuild-web-starter",
+  "name": "esbuild-web-app-scaffold",
   "version": "1.0.1",
   "description": "Awesome web development tool based on esbuild.It is fast!",
   "main": "index.js",
