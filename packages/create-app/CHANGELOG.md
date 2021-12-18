@@ -1,5 +1,11 @@
 # create-esbuild-app
 
+## 0.0.12
+
+### Patch Changes
+
+- d3097e1: resolve install problem
+
 ## 0.0.11
 
 ### Patch Changes
