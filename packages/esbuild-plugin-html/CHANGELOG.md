@@ -1,5 +1,11 @@
 # create-esbuild-app
 
+## 0.0.4
+
+### Patch Changes
+
+- 7fbd5f8: add esbuildOptions
+
 ## 0.0.3
 
 ### Patch Changes

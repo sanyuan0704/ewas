@@ -1,5 +1,17 @@
 # create-esbuild-app
 
+## 0.0.18
+
+### Patch Changes
+
+- 7fbd5f8: add esbuildOptions
+- 7fbd5f8: support custom config
+- Updated dependencies [7fbd5f8]
+- Updated dependencies [7fbd5f8]
+  - @ewas/create-esbuild-app@0.0.18
+  - @ewas/esbuild-plugin-html@0.0.4
+  - @ewas/esbuild-plugin-build-info@0.0.1
+
 ## 0.0.17
 
 ### Patch Changes
