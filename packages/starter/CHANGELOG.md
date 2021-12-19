@@ -1,5 +1,11 @@
 # create-esbuild-app
 
+## 0.0.19
+
+### Patch Changes
+
+- 7eb2802: fix type error
+
 ## 0.0.18
 
 ### Patch Changes
