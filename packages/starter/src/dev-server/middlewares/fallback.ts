@@ -10,7 +10,7 @@ export function historyFallbackMiddware(
   return (_req, res, next): void => {
     const templatePath = path.resolve(
       process.cwd(),
-      config.outdir!,
+      config.esbuildOptions!.outdir!,
       'index.html'
     );
     if (fs.existsSync(templatePath)) {

@@ -9,9 +9,9 @@
   <img style="margin: auto;" src="https://img.shields.io/bundlephobia/min/@ewas/cli?style=plastic"></img>
 </div> 
 
-A complete web development launcher based on Esbuild. Create web apps with no extra configuration.
+一个基于 Esbuild 的现代 Web 开发脚手架。你甚至无需任何配置就能启动一个支持各种现代前端工程能力的项目。
 
-## Quick Overview
+## 快速开始
 
 ```js
 // npm
@@ -21,10 +21,3 @@ yarn create @ewas/esbuild-app
 // pnpm 
 pnpm create @ewas/esbuild-app
 ```
-
-## Roadmap
-
-[] CSS Module
-[] Scss/Less/Stylus
-[] Vue
-[] 

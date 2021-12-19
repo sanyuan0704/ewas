@@ -6,6 +6,8 @@ env:
   NODE_OPTIONS: --max-old-space-size=6144
 
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
     types: [closed]

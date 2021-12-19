@@ -9,21 +9,22 @@ import {
 
 export async function runBuildFirstTime(config: UserConfig): Promise<void> {
   await build({
-    ...config,
+    ...(config.esbuildOptions),
     write: true,
     plugins: [esbuildHtmlPlugin(config), esbuildInfoPlugin(config)]
   });
 }
 
 export async function buildOnServe(config: UserConfig) {
+  const { esbuildOptions } = config;
   serve(
     {
       port: ESBUILD_SERVE_PORT,
-      servedir: config.outdir,
+      servedir: esbuildOptions!.outdir,
       onRequest: showRebuildInfo
     },
     {
-      ...config
+      ...esbuildOptions
     }
   );
 }
