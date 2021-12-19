@@ -114,6 +114,7 @@ importers:
       '@ewas/create-esbuild-app': link:../create-app
       '@ewas/esbuild-plugin-build-info': link:../esbuild-plugin-build-info
       '@ewas/esbuild-plugin-html': link:../esbuild-plugin-html
+      '@ewas/types': link:../types
       cac: 6.7.12
       chokidar: 3.5.2
       deepmerge: 4.2.2
@@ -124,7 +125,6 @@ importers:
       open: 8.4.0
       ws: 8.2.3
     devDependencies:
-      '@ewas/types': link:../types
       '@types/express': 4.17.13
       '@types/ws': 8.2.0
       typescript: 4.5.2
