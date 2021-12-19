@@ -4,7 +4,7 @@ import consola from 'consola';
 import minimist from 'minimist';
 
 const PACKAGE_DIR = 'packages';
-console.log('进来了');
+
 const getInitialContent = (pkg: string) => `
 console.log('pkg');
 `;

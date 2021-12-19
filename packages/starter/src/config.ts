@@ -13,7 +13,7 @@ const genLoader = (): Record<string, string> =>
     return pre;
   }, {} as Record<string, string>);
 
-const defaultOptions: BuildOptions = {
+const defaultEsbuildOptions: BuildOptions = {
   bundle: true,
   color: true,
   define: {},
@@ -67,7 +67,7 @@ async function bundleConfigFile(configFilePath: string, isESM = false) {
 }
 
 export async function loadConfigFromFile(): Promise<UserConfig | void> {
-  const configFiles = ['esbuild.config.ts', 'esbuild.config.js'];
+  const configFiles = ['ewas.config.ts', 'ewas.config.js'];
   const cwd = process.cwd();
   let userConfig;
 
@@ -83,5 +83,12 @@ export async function loadConfigFromFile(): Promise<UserConfig | void> {
 
 export async function resolveConfig(): Promise<UserConfig> {
   const config = await loadConfigFromFile();
-  return deepmerge(defaultOptions, config || {});
+  return deepmerge(
+    { esbuildOptions: defaultEsbuildOptions }, 
+    config || {}
+  );
+}
+
+export function defineConfig(config: UserConfig): UserConfig {
+  return config;
 }

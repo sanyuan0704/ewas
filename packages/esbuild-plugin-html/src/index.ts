@@ -37,7 +37,7 @@ export function esbuildHtmlPlugin(config: UserConfig): Plugin {
     filename,
     scriptLoading
   } = htmlConfig!;
-  const { publicPath, entryPoints, outdir, absWorkingDir } = config!;
+  const { publicPath, entryPoints, outdir, absWorkingDir } = config.esbuildOptions!;
   let templateStr: string;
   if (templateContent && template) {
     throw new Error(
