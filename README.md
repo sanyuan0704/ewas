@@ -9,7 +9,7 @@
   <img style="margin: auto;" src="https://img.shields.io/bundlephobia/min/@ewas/cli?style=plastic"></img>
 </div> 
 
-一个基于 Esbuild 的现代 Web 开发脚手架。你甚至无需任何配置就能启动一个支持各种现代前端工程能力的项目。
+ewas(读音/i:was/，同"伊瓦斯")，一个基于 Esbuild 的现代 Web 开发脚手架。你甚至无需任何配置就能启动一个支持各种现代前端工程能力的项目。
 
 当前 Esbuild 作为一个速度飞快的打包器，在 Web 场景下并不能做到开箱即用，同时也缺少现代 Web 开发的各种工程化能力，因此诞生了这个项目，在保证优越打包性能的同时，也提供完整的 Web 构建能力。
 
