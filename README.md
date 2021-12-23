@@ -37,3 +37,6 @@ pnpm create @ewas/esbuild-app
 | 解析环境变量文件 | ❌ |
 | 支持 TS 装饰器语法 | ❌ |
 | 接入 Babel/SWC 作 ES5 降级 | ❌ |
+
+## 示例项目
+[react-cloud-music](https://github.com/sanyuan0704/react-cloud-music)
