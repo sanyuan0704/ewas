@@ -1,5 +1,7 @@
-import path from 'path';
+import path from "path";
 
 export default {
-  entryPoints: [path.resolve(__dirname, 'src/main.tsx')]
+  esbuildOptions: {
+    entryPoints: [path.resolve(__dirname, "src/main.tsx")],
+  },
 };

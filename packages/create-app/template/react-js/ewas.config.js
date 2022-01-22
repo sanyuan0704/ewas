@@ -1,5 +1,7 @@
-const path = require('path');
+import path from "path";
 
-module.exports = {
-  entryPoints: [path.resolve(__dirname, 'src/main.jsx')]
+export default {
+  esbuildOptions: {
+    entryPoints: [path.resolve(__dirname, "src/main.jsx")],
+  },
 };
