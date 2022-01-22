@@ -134,6 +134,7 @@ async function init() {
     `${framework}-${language}`
   );
   console.log(cyan(`Genrating project in ${rootPath}...\n`));
+  
   copy(templatePath, rootPath);
   const packgeManager = getManager() ?? 'npm';
   console.log('✅ Done. You can start project by these steps:\n');
