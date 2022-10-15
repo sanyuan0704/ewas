@@ -5,12 +5,13 @@ import { writeFile, mkdir } from 'fs/promises';
 import { HTMLBuilder } from './HTMLBuilder';
 import { UserConfig } from '@ewas/types';
 
-type ScriptType = 'blocking' | 'defer' | 'module';
+type ScriptType = 'blocking' | 'defer' | 'module' | 'async';
 
 const CHUNK_REGEXP = /\.(js|css)$/;
 
 const isChunk = (name: string): boolean => CHUNK_REGEXP.test(name);
 
+//创建文件的软链
 function createTag(
   tag: string,
   attr: Record<string, string | boolean>
@@ -88,6 +89,9 @@ export function esbuildHtmlPlugin(config: UserConfig): Plugin {
       switch (type) {
         case 'defer':
           assetMap.defer = true;
+          break;
+        case 'async':
+          assetMap.async = true;
           break;
         case 'module':
           assetMap.type = 'module';
