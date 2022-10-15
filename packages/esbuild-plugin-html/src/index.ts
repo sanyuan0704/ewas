@@ -11,7 +11,7 @@ const CHUNK_REGEXP = /\.(js|css)$/;
 
 const isChunk = (name: string): boolean => CHUNK_REGEXP.test(name);
 
-//创建文件的软链
+
 function createTag(
   tag: string,
   attr: Record<string, string | boolean>
