@@ -2,7 +2,7 @@ import express from 'express';
 import { WebSocket, WebSocketServer } from 'ws';
 import chokidir from 'chokidar';
 import { resolveConfig } from '../config';
-import { createProxyMiddleware } from 'http-proxy-middleware';
+import { createProxyMiddleware, Filter, Options, RequestHandler } from 'http-proxy-middleware';
 import open from 'open';
 import { buildOnServe, runBuildFirstTime } from '../build';
 import { historyFallbackMiddware } from './middlewares/fallback';

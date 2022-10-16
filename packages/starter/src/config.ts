@@ -70,7 +70,7 @@ export async function loadConfigFromFile(): Promise<UserConfig | void> {
   const configFiles = ['ewas.config.ts', 'ewas.config.js'];
   const cwd = process.cwd();
   let userConfig;
-
+  
   for (const configFile of configFiles) {
     const configFilePath = path.join(cwd, configFile);
     if (fs.existsSync(configFilePath)) {
