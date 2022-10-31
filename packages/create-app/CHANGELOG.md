@@ -1,5 +1,11 @@
 # create-esbuild-app
 
+## 0.0.20
+
+### Patch Changes
+
+- test release
+
 ## 0.0.19
 
 ### Patch Changes

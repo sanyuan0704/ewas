@@ -1,5 +1,16 @@
 # create-esbuild-app
 
+## 0.0.21
+
+### Patch Changes
+
+- test release
+- Updated dependencies
+  - @ewas/create-esbuild-app@0.0.20
+  - @ewas/esbuild-plugin-build-info@0.0.2
+  - @ewas/esbuild-plugin-html@0.0.5
+  - @ewas/types@1.0.2
+
 ## 0.0.20
 
 ### Patch Changes
