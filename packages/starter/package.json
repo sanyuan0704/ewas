@@ -14,19 +14,19 @@
     "check": "tsc --noEmit"
   },
   "dependencies": {
+    "@ewas/create-esbuild-app": "workspace:*",
+    "@ewas/esbuild-plugin-build-info": "workspace:*",
+    "@ewas/esbuild-plugin-html": "workspace:*",
+    "@ewas/types": "workspace:*",
     "cac": "^6.7.12",
     "chokidar": "^3.5.2",
-    "@ewas/create-esbuild-app": "workspace:*",
     "deepmerge": "^4.2.2",
     "esbuild": "^0.13.15",
     "express": "^4.17.1",
-    "http-proxy-middleware": "^2.0.1",
+    "http-proxy-middleware": "^2.0.6",
     "kolorist": "^1.5.0",
     "open": "^8.4.0",
-    "ws": "^8.2.3",
-    "@ewas/esbuild-plugin-html": "workspace:*",
-    "@ewas/esbuild-plugin-build-info": "workspace:*",
-    "@ewas/types": "workspace:*"
+    "ws": "^8.2.3"
   },
   "files": [
     "dist"
